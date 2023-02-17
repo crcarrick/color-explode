@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["esnext"],
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "incremental": true,
+    "types": ["vitest/importMeta"]
+  },
+  "include": ["lib/*.ts", "test/*.ts", "lib/postcss.d.ts"],
+  "exclude": []
+}
